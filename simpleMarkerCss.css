@@ -1,0 +1,327 @@
+.simpleMarkerDiv{
+	width: 600px;
+	min-height: 0px;
+	padding: 40px 0px 0px 0px;
+}
+.addMarkerButton{
+	position:absolute;
+	top: 3px;
+	left: 5px;
+	height:30px;
+	width:80px;
+	border: none;
+	box-shadow: .5px .5px .1px #888888;
+}
+.addFolderButton{
+	position:absolute;
+	top: 3px;
+	left: 90px;
+	height:30px;
+	width:80px;
+	border: none;
+	box-shadow: .5px .5px .1px #888888;
+}
+.trashcan{
+	position:absolute;
+	top: 3px;
+	left: 527px;
+	color:white;
+	box-shadow: .5px .5px .1px #888888;
+}
+
+
+
+.outsideLinks{
+	color:black;
+	background-color:white;
+	padding:7px 30px 7px 8px;
+	text-decoration:none;
+	display:inline-block;
+	width:560px;
+	min-height: 14.8px;
+	overflow:hidden;
+	text-overflow: ellipsis;
+	font-size: 13px;
+	box-shadow: .5px .5px .1px #888888;
+}
+.outsideEditButton{
+	position: absolute;
+	width: 23px;
+	height: 23px;
+	padding: 2px 0px 0px 0px;
+	left: 577px;
+	visibility: hidden;
+}
+.outsideDeleteButton{
+	position: absolute;
+	padding: 2px 0px 0px 0px;
+	width: 17px;
+	height: 20.4px;
+	left: 563px;
+	visibility:hidden;
+}
+.editInput{
+	color: black;
+	padding: 5px 49px 0px 8px;
+	text-decoration: none;
+	display:inline-block;
+	width: 540px;
+	min-height:21.8px; 
+	resize: vertical;
+	font-size: 13px;
+	outline: none;
+	border:.5px solid black;
+}
+.outsideSaveButton{
+	padding: 2px 0px 0px 0px;
+	position: absolute;
+	width: 16.8px;
+	height: 16.8px;
+	left: 566px;
+}
+.outsideCancelButton{
+	position: absolute;
+	margin:1.5px 0px 0px 0px;
+	width: 17.8px;
+	height: 17.8px;
+	background-color: white;
+	left: 584px;
+	border:none;
+}
+.outsideLinks:hover + .outsideEditButton{
+	visibility: visible;
+	transition-delay: .5s;
+} 
+.outsideEditButton:hover{
+	visibility: visible;
+}
+
+
+
+.folderList{
+	list-style-type: none;
+	padding:3px 0px;
+	position: relative;
+}
+.iconFolder{
+	width:30px;
+	height:30px;
+	position: absolute;
+	left: 2px;
+	width:30px;
+	height:30px;
+}
+.buttonFolder{
+	color: black;
+	background-color: white;
+	padding: 7px 3px 7px 39px;
+	text-decoration: none;
+	border: none;
+	text-align: left;
+	display:inline-block;
+	width: 600px;
+	height: 30.5px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	box-shadow: .5px .5px .1px #888888;
+}
+.editFolder{
+	position: absolute;
+	width: 23px;
+	height: 23px;
+	padding: 4px 0px 0px 0px;
+	left: 573px;
+	visibility: hidden;
+}
+.buttonFolder:hover ~ .editFolder{
+	visibility: visible;
+	transition-delay: .5s;
+}
+.editFolder:hover{
+	visibility: visible;
+}
+.deleteFolder{
+	position: absolute;
+	visibility: hidden;
+	padding: 4px 0px 0px 0px;
+	left: 555px;
+	width: 17px;
+	height: 20.4px;
+}
+.createFolderButton{
+	position: absolute;
+	background-color: #595959;
+	height:30px;
+	width:30px;
+	border:none;
+	left: 541px;
+	font-size:18px;
+	color:white;
+}
+.cancelFolderButton{
+	position: absolute;
+	background-color: #CBCBCB;
+	height:30px;
+	width:30px;
+	left: 571px;
+	border:none;
+	font-size: 14px;
+	color:black;
+}
+.inputFolder{
+	color: black;
+	padding: 7px 43px 7px 10px;
+	text-align: left;
+	text-decoration: none;
+	display:inline-block;
+	border: .5px solid black;
+	width: 545px;
+	height: 14px;
+	resize: vertical;
+	outline:none;
+}
+.inputFolderCreate{
+	color: black;
+	padding: 7px 43px 7px 10px;
+	text-align: left;
+	text-decoration: none;
+	display:inline-block;
+	border: .5px solid black;
+	width: 487px;
+	height: 14px;
+	resize: vertical;
+	outline:none;
+}
+.saveEditFolder{
+	padding: 6px 0px 0px 0px;
+	position: absolute;
+	width: 16.8px;
+	height: 16.8px;
+	left: 561px;
+}
+.cancelEditFolder{
+	position: absolute;
+	margin:6px 0px 0px 0px;
+	width: 17.8px;
+	height: 17.8px;
+	background-color: white;
+	left: 579px;
+	border:none;
+}
+
+
+
+.insideMarkerList{
+	list-style-type: none;
+	padding: 3px 0px 0px 0px;
+	position: relative;
+	padding-left: 30px;
+}
+.insideLinks{
+	color: black;
+	background-color: white;
+	border: none;
+	padding: 5px 20px 5px 8px;
+	text-decoration: none;
+	display:inline-block;
+	width: 510px;
+	min-height: 14.8px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	box-shadow: .5px .5px .1px #888888;
+}
+.insideEditButton{
+	position: absolute;
+	width: 19.8px;
+	height: 19.8px;
+	padding: 2px 0px 0px 0px;
+	left: 546px;
+	visibility: hidden;
+}
+.insideLinks:hover + .insideEditButton{
+	visibility: visible;
+	transition-delay: .5s;
+}
+.insideEditButton:hover{
+	visibility: visible;
+}
+
+.insideDeleteButton{
+	position: absolute;
+	width: 17px;
+	height: 20.4px;
+	left: 518px;
+	visibility: hidden;
+}
+.editInsideInput{
+	color: black;
+	padding: 5px 50px 5px 8px;
+	text-decoration: none;
+	display:inline-block;
+	min-width: 478px;
+	border: .7px solid black;
+	margin: 5px 0px;
+	resize: vertical;
+	outline: none;
+}
+.insideSaveButton{
+	padding: 8px 0px 0px 0px;
+	position: absolute;
+	width: 16.8px;
+	height: 16.8px;
+	left: 526px;
+}
+.insideCancelButton{
+	position: absolute;
+	margin:7px 0px 0px 0px;
+	width: 17.8px;
+	height: 17.8px;
+	background-color: white;
+	border:none;
+	left: 546px;
+}
+
+
+
+body{
+	margin: 5px;
+	padding: 0px;
+	font-family: Arial;
+	font-size: 13px;
+	background-color: #f2f2f2;
+	border-color: black;
+}
+button:focus{
+	outline:0;
+}
+li{
+	list-style-type: none;
+	margin:0px 0px;
+}
+ul{
+	padding-left: 0px;
+	margin: 0px 0px;
+}
+textarea{
+	overflow:auto;
+	padding:0px 0px;
+	font-family: Arial, Helvetica, Sans-serif;
+}
+body::-webkit-scrollbar {
+	width: .8em;
+}
+body::-webkit-scrollbar-thumb {
+	background-color: darkgrey;
+	outline: 1px solid slategrey;
+}
+
+
+
+
+
+
+
+
+
+
+
