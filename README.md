@@ -10,7 +10,7 @@ Have you ever wanted to quickly save a URL while browsing but find bookmarking t
 
 A demo video and the chrome extension itself are available to download, for FREE, on the Chrome Store: https://chrome.google.com/webstore/detail/simplemarker/kgokdfclfmecidfdogbbmpecfibdjjpc
 
-If you dont want to install the extension from the chrome store or if you want to contribute to the extension. Then you should directly upload to your browser. To do this follow the following steps:
+If you dont want to install the extension from the chrome store or if you want to contribute to the extension. Then you can directly upload the extension to your browser. To do this follow the following steps:
 1) Clone the repo
 2) Open the chrome browser
 3) Click on the 3 vertical dots on the top right corner
